@@ -3,3 +3,5 @@
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/Blinina/frontend-project-lvl1)
 
+[![Linter Status](https://github.com/Blinina/frontend-project-lvl1/actions/workflows/brain-check.yml/badge.svg)](https://github.com/Blinina/frontend-project-lvl1/actions/workflows/brain-check.yml)
+
