@@ -1,4 +1,4 @@
-import _ from "lodash";
+import _ from 'lodash';
 
 const nokfunction = (num1, num2) => {
   const divisors1 = [];
@@ -15,5 +15,5 @@ const nokfunction = (num1, num2) => {
   }
   const result = _.intersection(divisors1, divisors2);
   return result[result.length - 1];
-}
+};
 export default nokfunction;
