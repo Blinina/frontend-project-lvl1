@@ -11,7 +11,7 @@ make instsall
 ```
 ##### Demo
 
-<a href="https://asciinema.org/a/495661" target="_blank"><img src="https://asciinema.org/a/495661.svg" /></a>
+<a href="https://asciinema.org/a/495661" target="_blank"><img src="https://asciinema.org/a/495661.svg"  width = "300px"/></a>
 
 ### Run games
 
