@@ -5,15 +5,15 @@
 
 [![Linter Status](https://github.com/Blinina/frontend-project-lvl1/actions/workflows/brain-check.yml/badge.svg)](https://github.com/Blinina/frontend-project-lvl1/actions/workflows/brain-check.yml)
 
-###Setup
+### Setup
 ```
 make instsall
 ```
-#####Demo
+##### Demo
 
 <a href="https://asciinema.org/a/495661" target="_blank"><img src="https://asciinema.org/a/495661.svg" /></a>
 
-###Run games
+### Run games
 
 ```
 $ brain-calc
@@ -23,25 +23,25 @@ $ brain-progression
 $ brain-prime
 ```
 
-#####Brain-calc
+##### Brain-calc
 
 <a href="https://asciinema.org/a/495632" target="_blank"><img src="https://asciinema.org/a/495632.svg"  width = "300px"/></a>
 
 
-#####Brain-even
+##### Brain-even
 <a href="https://asciinema.org/a/495638" target="_blank"><img src="https://asciinema.org/a/495638.svg"  width = "300px"/></a>
 
 
-#####Brain-gcd
+##### Brain-gcd
 
 <a href="https://asciinema.org/a/495641" target="_blank"><img src="https://asciinema.org/a/495641.svg"  width = "300px"/></a>
 
 
-#####Brain-prime
+##### Brain-prime
 
 <a href="https://asciinema.org/a/ptRQwR9inRf48JgsPalLSSUSh" target="_blank"><img src="https://asciinema.org/a/ptRQwR9inRf48JgsPalLSSUSh.svg" width = "300px"/></a>
 
 
-#####Brain-progression
+##### Brain-progression
 
 <a href="https://asciinema.org/a/495652" target="_blank"><img src="https://asciinema.org/a/495652.svg" width = "300px"/></a>
