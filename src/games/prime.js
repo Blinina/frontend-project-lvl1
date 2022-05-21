@@ -1,7 +1,6 @@
 import runGame from '../index.js';
 import generateNumber from '../generateNumber.js';
 
-
 const rules = 'Find the greatest common divisor of given numbers.';
 
 const startGame = () => {
