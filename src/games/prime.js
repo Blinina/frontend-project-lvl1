@@ -1,6 +1,6 @@
 import runGame from '../index.js';
+import generateNumber from '../generateNumber.js';
 
-const generateNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const rules = 'Find the greatest common divisor of given numbers.';
 

@@ -1,6 +1,6 @@
 import runGame from '../index.js';
+import generateNumber from '../generateNumber.js';
 
-const generateNumber = (min, max) => Math.floor(Math.random() * (max - min + 1)) + min;
 const randomOperator = (arr) => arr[generateNumber(0, arr.length - 1)];
 const opeRandom = ['+', '-', '*'];
 
