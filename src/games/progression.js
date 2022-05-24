@@ -8,13 +8,13 @@ const startRound = () => {
   const step = generateNumber(2, 5);
   const strLength = 10;
   const miss = generateNumber(1, 10);
-  const aNum = [];
-  for (let i = num1; aNum.length <= strLength; i += step) {
-    aNum.push(i);
+  const numbers = [];
+  for (let i = num1; numbers.length <= strLength; i += step) {
+    numbers.push(i);
   }
-  const correctAnswer = String(aNum[miss]);
-  aNum[miss] = '..';
-  const question = aNum.join(' ');
+  const correctAnswer = String(numbers[miss]);
+  numbers[miss] = '..';
+  const question = numbers.join(' ');
 
   return [question, correctAnswer];
 };
