@@ -2,17 +2,17 @@ import runGame from '../index.js';
 import generateNumber from '../generateNumber.js';
 
 const randomOperator = (arr) => arr[generateNumber(0, arr.length - 1)];
-const opeRandom = ['+', '-', '*'];
+const operators = ['+', '-', '*'];
 
-const rules = 'What is the result of the expression?';
+const rule = 'What is the result of the expression?';
 
-const startGame = () => {
+const startRound = () => {
   const num1 = generateNumber(1, 10);
   const num2 = generateNumber(1, 10);
-  const operator = randomOperator(opeRandom);
+  const operator = randomOperator(operators);
   const question = `${num1} ${operator} ${num2}`;
 
-  let correctAnswer = 0;
+  let correctAnswer;
 
   switch (operator) {
     case '+':
@@ -27,7 +27,7 @@ const startGame = () => {
     default: return null;
   }
 
-  return [question, correctAnswer];
+  return [question, String(correctAnswer)];
 };
 
-export default () => runGame(startGame, rules);
+export default () => runGame(startRound, rule);

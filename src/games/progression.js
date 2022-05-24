@@ -1,21 +1,22 @@
 import runGame from '../index.js';
 import generateNumber from '../generateNumber.js';
 
-const rules = 'What number is missing in the progression?';
+const rule = 'What number is missing in the progression?';
 
-const startGame = () => {
+const startRound = () => {
   const num1 = generateNumber(0, 100);
   const step = generateNumber(2, 5);
+  const strLength = 10;
   const miss = generateNumber(1, 10);
-  const arr = [];
-  for (let i = num1; arr.length <= 10; i += step) {
-    arr.push(i);
+  const aNum = [];
+  for (let i = num1; aNum.length <= strLength; i += step) {
+    aNum.push(i);
   }
-  const correctAnswer = arr[miss];
-  arr[miss] = '..';
-  const question = arr.join(' ');
+  const correctAnswer = String(aNum[miss]);
+  aNum[miss] = '..';
+  const question = aNum.join(' ');
 
   return [question, correctAnswer];
 };
 
-export default () => runGame(startGame, rules);
+export default () => runGame(startRound, rule);
